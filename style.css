@@ -82,10 +82,13 @@ Image Gallery (from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_cs
 /* Create two equal columns that floats next to each other */
 .row {
     display: flex;
+    margin: 10px;
   }
   
   .left {
     width: 25%;
+    margin-left: 20px;
+    margin-right: 50px;
     background-color:#aaa;
   }
   
@@ -94,6 +97,25 @@ Image Gallery (from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_cs
     background-color:#bbb;
   }
   
+
+/*
+====================
+Header and footer
+====================
+*/
+
+ header {
+    background-color: #62a7c4;
+ }
+
+ footer {
+
+    background-color: #62a7c4;
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+
+ }
 
 /*
 ====================
@@ -141,6 +163,7 @@ Gallery
 	align-items: center;
 	justify-content: center;
 	align-content: center;
+    margin: 10px;
    }
 
    .projectPic {
@@ -168,11 +191,11 @@ Standard div
 
 .standardDiv {
     border: 1px solid black;
-    background-color: lightblue;
-    padding-top: 50px;
-    padding-right: 30px;
-    padding-bottom: 50px;
-    padding-left: 80px;
+    background-color: #62a7c4;
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    padding-left: 40px;
   }
 
   
@@ -200,4 +223,27 @@ Specified styles
 
     #NavBar {
         text-align: center;
+        color: #62a7c4;
+
+    }
+    
+
+    #SMSPIC {
+        border-radius: 50%;
+        width:200px;
+        position: absolute;
+        top: 10px;
+        left: 300px;
+        border: 2px solid #111111;
+
+    }
+
+    #aboutDiv {
+        background-color:#bbb;
+        width:500px;
+        height: 250px;
+        margin-left: auto; 
+        margin-right: auto;
+        text-align: center;
+
     }
