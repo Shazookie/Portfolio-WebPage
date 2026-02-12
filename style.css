@@ -86,10 +86,12 @@ Image Gallery (from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_cs
   
   .left {
     width: 25%;
+    background-color:#aaa;
   }
   
   .right {
     width: 75%;
+    background-color:#bbb;
   }
   
 
@@ -181,3 +183,21 @@ Standard div
     float: right;
     background-color: #756985;
 }
+
+/*
+====================
+Specified styles 
+====================
+*/
+
+    #AboutSection {
+       text-align: center;
+    }
+
+    #Name {
+        font-family: 'Brush Script MT', cursive;  font-size: 60px;
+    }
+
+    #NavBar {
+        text-align: center;
+    }
