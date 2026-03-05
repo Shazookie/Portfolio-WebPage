@@ -128,13 +128,13 @@ Image Gallery (from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_cs
   
   .left {
     width: 25%;
+    height: 250px;
     margin-left: 20px;
     margin-right: 50px;
     background-color:#aaa;
     border-color: #111111;
     border-width: 4px;
     border-style: solid;
-    height: 280px;
   }
   
   .right {
@@ -284,7 +284,6 @@ Specified styles
         top: 2px;
         left: 300px;
         border: 2px solid #111111;
-
     }
 
     #aboutDiv {
