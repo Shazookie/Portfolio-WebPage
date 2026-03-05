@@ -135,6 +135,7 @@ Image Gallery (from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_cs
     border-color: #111111;
     border-width: 4px;
     border-style: solid;
+    height: 280px;
   }
   
   .right {
