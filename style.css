@@ -128,7 +128,7 @@ Image Gallery (from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_cs
   
   .left {
     width: 25%;
-    height: 250px;
+    height: 500px;
     margin-left: 20px;
     margin-right: 50px;
     background-color:#aaa;
@@ -219,6 +219,7 @@ Gallery
     border: 10px groove #3c3c3c;
     -webkit-filter: grayscale(100%);
     width: 100%;
+    
   }
   
   .projectPic img {
